@@ -1,0 +1,58 @@
+body{
+    background-color: #eeeeee;
+}
+
+
+#produits .row{
+    margin-top: 50px;
+    
+}
+
+#produits .card{
+    margin: 20px;
+    border: none;
+    background-color: #eeeeee;
+    padding-right: 20px;
+}
+
+#produits .card-title{
+   text-align: center;
+}
+
+#produits h5 {
+    
+    font-size: 1.5em;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+#produits h6 {
+    text-align: center;
+    color:orangered;
+    font-weight: 750;
+    font-size: 1.3em;
+ }
+.btn {
+    position: absolute;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #34C924;
+    border: none;
+    font-weight: 800;
+    font-size: 1.2em;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .4s;
+    visibility: hidden;
+ }
+
+  .card:hover .btn{
+
+     margin-top:-250px;
+     visibility: visible;
+    
+ }
+
